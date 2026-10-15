@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>مساعد المملكة للوثائق</title>
+  <meta name="description" content="مساعد ذكي يجيب عن أسئلتك من وثائق المشروع فقط، مع ذكر المصدر ورقم الصفحة، وينبّه إلى التعارض بين الوثائق.">
+  <meta name="theme-color" content="#9D0A0E">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/fonts/tajawal-arabic-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/fonts.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <script type="module" src="/assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#chat">انتقل إلى المحادثة</a>
+
+  <header class="masthead">
+    <div class="masthead__inner">
+      <a class="brand" href="#top" aria-label="مساعد المملكة للوثائق — الرئيسية">
+        <!-- Official logo: save it as public/assets/img/logo.svg and uncomment the next line (the text wordmark then hides itself). -->
+        <!-- <img class="brand__logo" src="/assets/img/logo.svg" alt="المملكة"> -->
+        <span class="brand__wordmark">المملكة</span>
+        <span class="brand__product">مساعد الوثائق</span>
+      </a>
+      <nav class="mainnav" aria-label="أقسام الصفحة">
+        <a href="#docs">الوثائق</a>
+        <a href="#pipeline">سير المعالجة</a>
+        <a href="#chat">المحادثة</a>
+        <a href="#how">كيف يعمل</a>
+      </nav>
+      <div class="masthead__tools">
+        <span class="kb-status" id="kb-status" data-state="empty" role="status">
+          <span class="kb-status__dot" aria-hidden="true"></span>
+          <span class="kb-status__text">لا توجد ملفات</span>
+        </span>
+        <button class="btn btn--outline" id="open-upload" type="button">
+          <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 16V4m0 0-5 5m5-5 5 5M5 20h14"/></svg>
+          رفع الملفات
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Front page: mirrors the news grid — hero + document tiles -->
+    <section class="front container" id="docs" aria-labelledby="hero-title">
+      <article class="tile tile--hero" id="hero">
+        <div class="tile__body">
+          <span class="tile__label">مساعد المملكة</span>
+          <h1 class="tile__headline" id="hero-title">اسأل وثائق المشروع، واحصل على إجابة موثّقة بالمصدر ورقم الصفحة</h1>
+          <p class="tile__lede" id="hero-lede">يجيب بالعربية أو الإنجليزية من الملفات المرفوعة فقط، ويُظهر التعارض بين الوثائق بدلاً من اختيار رقم واحد.</p>
+          <div class="tile__actions">
+            <button class="btn btn--light" id="hero-cta" type="button">رفع الملفات</button>
+          </div>
+        </div>
+      </article>
+      <div class="tile-grid" id="doc-tiles" aria-live="polite"></div>
+    </section>
+
+    <!-- Processing workflow -->
+    <section class="section container" id="pipeline" aria-labelledby="pipeline-title">
+      <div class="section__head">
+        <h2 class="section__title" id="pipeline-title">سير المعالجة</h2>
+        <p class="section__lede">كل مرحلة تعمل فعلياً على ملفاتك وتُظهر نتيجتها. اضغط على أي مرحلة مكتملة لتفتح تفاصيلها.</p>
+      </div>
+      <div class="sheet pipeline">
+        <ol class="track" id="track" style="--progress: 0"></ol>
+        <div class="stage-panel" id="stage-panel" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Chat -->
+    <section class="section container" id="chat" aria-labelledby="chat-title">
+      <div class="section__head">
+        <h2 class="section__title" id="chat-title">المحادثة</h2>
+        <p class="section__lede">اسأل بالعربية أو الإنجليزية. كل إجابة تذكر مصدرها، والأسئلة خارج الوثائق تُرفض بوضوح.</p>
+      </div>
+      <div class="chat-layout">
+        <div class="sheet chat" id="chat-box" data-locked="true">
+          <div class="chat__bar">
+            <span class="chat__title">اسأل عن الوثائق</span>
+            <button class="btn btn--ghost" id="new-thread" type="button">محادثة جديدة</button>
+          </div>
+          <div class="chat__log" id="chat-log" aria-live="polite" aria-relevant="additions"></div>
+          <form class="composer" id="composer" autocomplete="off">
+            <label class="visually-hidden" for="question">سؤالك</label>
+            <textarea id="question" rows="1" maxlength="1000" dir="auto" placeholder="اكتب سؤالك بالعربية أو الإنجليزية…" disabled></textarea>
+            <button class="btn btn--primary composer__send" type="submit" disabled aria-label="إرسال">
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20 12H5m0 0 6-6m-6 6 6 6"/></svg>
+            </button>
+          </form>
+          <div class="chat__lock" id="chat-lock">
+            <p class="chat__lock-title">المحادثة تتفعّل بعد رفع الملفات</p>
+            <p class="chat__lock-text">ارفع وثائق المشروع واضغط «موافق» لتبدأ المعالجة، ثم اسأل ما تريد.</p>
+            <button class="btn btn--primary" id="lock-upload" type="button">رفع الملفات</button>
+          </div>
+        </div>
+        <aside class="sheet graph-panel" aria-labelledby="graph-title">
+          <h3 class="graph-panel__title" id="graph-title">مسار آخر سؤال في LangGraph</h3>
+          <p class="graph-panel__note" id="graph-note">بعد كل سؤال تتلوّن العُقد التي مرّ بها، مع زمن كل منها.</p>
+          <div class="graph-panel__svg" id="graph-svg"></div>
+          <dl class="graph-panel__stats" id="graph-stats"></dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section container" id="how" aria-labelledby="how-title">
+      <div class="section__head">
+        <h2 class="section__title" id="how-title">كيف يعمل</h2>
+      </div>
+      <div class="how">
+        <article class="how__item">
+          <h3>المعالجة</h3>
+          <p>يقرأ المتصفح ملفات PDF ويستخرج الأسطر والجداول، ثم يقسّم الخادم كل وثيقة حسب أقسامها المرقّمة، فيصبح كل قسم مقطعاً مستقلاً برقم صفحته. بعدها يُضاف لكل مقطع سطر سياق وكلمات مفتاحية بالعربية والإنجليزية، ويُحوَّل إلى متجه بنموذج Jina، ويُفحص التعارض بين الوثائق مرة واحدة ويُحفظ.</p>
+        </article>
+        <article class="how__item">
+          <h3>الاسترجاع</h3>
+          <p>يُعاد صياغة السؤال ليكون مستقلاً عن المحادثة، ثم يُبحث عنه بالعربية والإنجليزية معاً: بحث دلالي بالمتجهات وبحث نصي BM25، تُدمج نتائجهما ثم يعيد Jina ترتيبها. ويُضمن حضور كل وثيقة ذات صلة حتى لا يغيب أحد طرفي التعارض.</p>
+        </article>
+        <article class="how__item">
+          <h3>الإجابة والتحقق</h3>
+          <p>يكتب نموذج gpt-oss-120b عبر Groq إجابة منظّمة بمراجع واقتباسات. يتحقق الكود من أن كل اقتباس موجود حرفياً في مصدره، ومن لغة الإجابة؛ وإن لم يوجد دليل تُرفض الإجابة. الرفض وخارج النطاق ردود ثابتة لا يكتبها نموذج.</p>
+        </article>
+      </div>
+      <ul class="stack" aria-label="التقنيات المستخدمة">
+        <li>LangGraph.js</li><li>Groq gpt-oss-120b</li><li>Groq gpt-oss-20b</li><li>Jina embeddings v5</li><li>Jina reranker v3</li><li>Netlify Functions</li><li>Netlify Blobs</li><li>PDF.js</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>نموذج تجريبي أُعدّ لمهمة تقنية. الإجابات مستندة حصرياً إلى الوثائق المرفوعة في هذه الجلسة.</p>
+      <p class="footer__health" id="health"></p>
+    </div>
+  </footer>
+
+  <!-- Upload dialog -->
+  <dialog class="dialog" id="upload-dialog" aria-labelledby="upload-title">
+    <form method="dialog" class="dialog__form" id="upload-form">
+      <h2 class="dialog__title" id="upload-title">رفع وثائق المشروع</h2>
+      <p class="dialog__text">اختر ملفات PDF (حتى 5 ملفات، 10 ميغابايت لكل ملف). تُقرأ الملفات في متصفحك، ويُرسل نصّها فقط للمعالجة.</p>
+      <label class="dropzone" id="dropzone" tabindex="0">
+        <input type="file" id="file-input" accept="application/pdf,.pdf" multiple class="visually-hidden">
+        <svg class="icon icon--lg" aria-hidden="true" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M12 18v-6m0 0-2.5 2.5M12 12l2.5 2.5"/></svg>
+        <span class="dropzone__main">اسحب الملفات إلى هنا أو اضغط للاختيار</span>
+        <span class="dropzone__hint">PDF فقط</span>
+      </label>
+      <ul class="file-list" id="file-list"></ul>
+      <p class="dialog__error" id="upload-error" role="alert"></p>
+      <div class="dialog__actions">
+        <button class="btn btn--primary" id="upload-confirm" type="button" disabled>موافق</button>
+        <button class="btn btn--ghost" id="upload-cancel" type="button">إلغاء</button>
+      </div>
+    </form>
+  </dialog>
+</body>
+</html>

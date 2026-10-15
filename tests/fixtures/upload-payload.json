@@ -1,0 +1,922 @@
+{
+ "files": [
+  {
+   "name": "Almamlaka_Project_Overview.pdf",
+   "size": 0,
+   "pageCount": 2,
+   "pages": [
+    {
+     "page": 1,
+     "width": 612,
+     "height": 792,
+     "lines": [
+      {
+       "text": "Almamlaka TV Digital Expansion Initiative",
+       "cells": null,
+       "x": 107.6,
+       "y": 708.4,
+       "h": 20,
+       "font": "g_d0_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "Project Overview Document",
+       "cells": null,
+       "x": 78,
+       "y": 672.4,
+       "h": 14,
+       "font": "g_d0_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "1. Introduction",
+       "cells": null,
+       "x": 78,
+       "y": 618.4,
+       "h": 18,
+       "font": "g_d0_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "Almamlaka TV is launching a new initiative called the Digital Expansion Initiative (DEI), aimed at",
+       "cells": null,
+       "x": 78,
+       "y": 595.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "modernizing the channel's digital presence across streaming, mobile, and social platforms. This",
+       "cells": null,
+       "x": 78,
+       "y": 580.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "document outlines the project's scope, goals, and key stakeholders.",
+       "cells": null,
+       "x": 78,
+       "y": 565.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "2. Project Goals",
+       "cells": null,
+       "x": 78,
+       "y": 529.4,
+       "h": 18,
+       "font": "g_d0_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "The primary goal of the DEI is to increase digital viewership by 40% within the first year of launch.",
+       "cells": null,
+       "x": 78,
+       "y": 506.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Secondary goals include improving content discoverability, modernizing the mobile application,",
+       "cells": null,
+       "x": 78,
+       "y": 491.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "and establishing a unified content management system across all platforms.",
+       "cells": null,
+       "x": 78,
+       "y": 476.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "3. Key Details",
+       "cells": null,
+       "x": 78,
+       "y": 440.4,
+       "h": 18,
+       "font": "g_d0_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "Project Lead: Sara Al-Rashid",
+       "cells": null,
+       "x": 78,
+       "y": 417.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Total Approved Budget: $2,400,000",
+       "cells": null,
+       "x": 78,
+       "y": 394.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Planned Launch Date: March 15, 2027",
+       "cells": null,
+       "x": 78,
+       "y": 371.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Project Duration: 14 months",
+       "cells": null,
+       "x": 78,
+       "y": 348.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      }
+     ]
+    },
+    {
+     "page": 2,
+     "width": 612,
+     "height": 792,
+     "lines": [
+      {
+       "text": "4. Platform Scope",
+       "cells": null,
+       "x": 78,
+       "y": 710.4,
+       "h": 18,
+       "font": "g_d0_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "The initiative covers three main platforms: the Almamlaka TV mobile application (iOS and",
+       "cells": null,
+       "x": 78,
+       "y": 687.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Android), the web streaming portal, and integration with third-party smart TV platforms. Each",
+       "cells": null,
+       "x": 78,
+       "y": 672.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "platform will receive a redesigned user interface aligned with the updated Almamlaka TV brand",
+       "cells": null,
+       "x": 78,
+       "y": 657.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "guidelines.",
+       "cells": null,
+       "x": 78,
+       "y": 642.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "As part of the accessibility improvements, the mobile application will support content and subtitles",
+       "cells": null,
+       "x": 78,
+       "y": 619.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "in 12 languages, including Arabic, English, French, and Spanish, with plans to expand to",
+       "cells": null,
+       "x": 78,
+       "y": 604.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "additional languages in future phases.",
+       "cells": null,
+       "x": 78,
+       "y": 589.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "5. Stakeholders",
+       "cells": null,
+       "x": 78,
+       "y": 553.4,
+       "h": 18,
+       "font": "g_d0_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "The project is sponsored by the Almamlaka TV Digital Strategy Department and overseen by a",
+       "cells": null,
+       "x": 78,
+       "y": 530.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "steering committee consisting of representatives from Engineering, Content, Marketing, and Legal",
+       "cells": null,
+       "x": 78,
+       "y": 515.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "& Compliance.",
+       "cells": null,
+       "x": 78,
+       "y": 500.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "6. Success Metrics",
+       "cells": null,
+       "x": 78,
+       "y": 464.4,
+       "h": 18,
+       "font": "g_d0_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "Success will be measured through monthly active users (MAU), average session duration, app",
+       "cells": null,
+       "x": 78,
+       "y": 441.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "store ratings, and content engagement rates. A quarterly review will be conducted by the steering",
+       "cells": null,
+       "x": 78,
+       "y": 426.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "committee to track progress against these metrics.",
+       "cells": null,
+       "x": 78,
+       "y": 411.9,
+       "h": 10.5,
+       "font": "g_d0_f1",
+       "dir": "ltr"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Almamlaka_Budget_Timeline.pdf",
+   "size": 0,
+   "pageCount": 2,
+   "pages": [
+    {
+     "page": 1,
+     "width": 612,
+     "height": 792,
+     "lines": [
+      {
+       "text": "Almamlaka TV Digital Expansion Initiative",
+       "cells": null,
+       "x": 107.6,
+       "y": 708.4,
+       "h": 20,
+       "font": "g_d1_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "Budget & Timeline Breakdown",
+       "cells": null,
+       "x": 78,
+       "y": 672.4,
+       "h": 14,
+       "font": "g_d1_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "1. Quarterly Budget Allocation",
+       "cells": null,
+       "x": 78,
+       "y": 618.4,
+       "h": 18,
+       "font": "g_d1_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "The table below outlines the approved budget allocation per quarter for the Digital Expansion",
+       "cells": null,
+       "x": 78,
+       "y": 595.9,
+       "h": 10.5,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Initiative, covering platform development, marketing, and operations.",
+       "cells": null,
+       "x": 78,
+       "y": 580.9,
+       "h": 10.5,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Quarter | Development | Marketing | Operations | Total",
+       "cells": [
+        "Quarter",
+        "Development",
+        "Marketing",
+        "Operations",
+        "Total"
+       ],
+       "x": 106.8,
+       "y": 553.4,
+       "h": 9,
+       "font": "g_d1_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "Q1 2027 | $450,000 | $120,000 | $60,000 | $630,000",
+       "cells": [
+        "Q1 2027",
+        "$450,000",
+        "$120,000",
+        "$60,000",
+        "$630,000"
+       ],
+       "x": 106.8,
+       "y": 529.4,
+       "h": 9,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Q2 2027 | $500,000 | $150,000 | $70,000 | $720,000",
+       "cells": [
+        "Q2 2027",
+        "$500,000",
+        "$150,000",
+        "$70,000",
+        "$720,000"
+       ],
+       "x": 106.8,
+       "y": 505.4,
+       "h": 9,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Q3 2027 | $400,000 | $100,000 | $60,000 | $560,000",
+       "cells": [
+        "Q3 2027",
+        "$400,000",
+        "$100,000",
+        "$60,000",
+        "$560,000"
+       ],
+       "x": 106.8,
+       "y": 481.4,
+       "h": 9,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Q4 2027 | $350,000 | $90,000 | $50,000 | $490,000",
+       "cells": [
+        "Q4 2027",
+        "$350,000",
+        "$90,000",
+        "$50,000",
+        "$490,000"
+       ],
+       "x": 106.8,
+       "y": 457.4,
+       "h": 9,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Total | $1,700,000 | $460,000 | $240,000 | $2,400,000",
+       "cells": [
+        "Total",
+        "$1,700,000",
+        "$460,000",
+        "$240,000",
+        "$2,400,000"
+       ],
+       "x": 106.8,
+       "y": 433.4,
+       "h": 9,
+       "font": "g_d1_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "2. Budget Notes",
+       "cells": null,
+       "x": 78,
+       "y": 376.4,
+       "h": 18,
+       "font": "g_d1_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "Note that the figures above reflect the originally approved budget. Following a revision by the",
+       "cells": null,
+       "x": 78,
+       "y": 353.9,
+       "h": 10.5,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Finance Committee in December 2026, the total project budget was adjusted to $2,600,000 to",
+       "cells": null,
+       "x": 78,
+       "y": 338.9,
+       "h": 10.5,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "account for additional smart TV integration costs not included in the original scope.",
+       "cells": null,
+       "x": 78,
+       "y": 323.9,
+       "h": 10.5,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      }
+     ]
+    },
+    {
+     "page": 2,
+     "width": 612,
+     "height": 792,
+     "lines": [
+      {
+       "text": "3. Project Timeline",
+       "cells": null,
+       "x": 78,
+       "y": 710.4,
+       "h": 18,
+       "font": "g_d1_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "Milestone | Target Date",
+       "cells": [
+        "Milestone",
+        "Target Date"
+       ],
+       "x": 124.8,
+       "y": 683.4,
+       "h": 9,
+       "font": "g_d1_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "Requirements finalized | Jan 10, 2027",
+       "cells": [
+        "Requirements finalized",
+        "Jan 10, 2027"
+       ],
+       "x": 124.8,
+       "y": 659.4,
+       "h": 9,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Mobile app design freeze | Feb 5, 2027",
+       "cells": [
+        "Mobile app design freeze",
+        "Feb 5, 2027"
+       ],
+       "x": 124.8,
+       "y": 635.4,
+       "h": 9,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Development complete | Mar 1, 2027",
+       "cells": [
+        "Development complete",
+        "Mar 1, 2027"
+       ],
+       "x": 124.8,
+       "y": 611.4,
+       "h": 9,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "QA & testing | Mar 1 - Mar 20, 2027",
+       "cells": [
+        "QA & testing",
+        "Mar 1 - Mar 20, 2027"
+       ],
+       "x": 124.8,
+       "y": 587.4,
+       "h": 9,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Public launch | March 15, 2027",
+       "cells": [
+        "Public launch",
+        "March 15, 2027"
+       ],
+       "x": 124.8,
+       "y": 563.4,
+       "h": 9,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Post-launch review | Jun 15, 2027",
+       "cells": [
+        "Post-launch review",
+        "Jun 15, 2027"
+       ],
+       "x": 124.8,
+       "y": 539.4,
+       "h": 9,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "4. Risk Notes",
+       "cells": null,
+       "x": 78,
+       "y": 482.4,
+       "h": 18,
+       "font": "g_d1_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "The QA and testing phase has limited buffer time. Any delay in development completion beyond",
+       "cells": null,
+       "x": 78,
+       "y": 459.9,
+       "h": 10.5,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "March 1, 2027 poses a direct risk to the public launch date. The Engineering team has flagged",
+       "cells": null,
+       "x": 78,
+       "y": 444.9,
+       "h": 10.5,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "smart TV integration testing as the highest-risk item on the timeline.",
+       "cells": null,
+       "x": 78,
+       "y": 429.9,
+       "h": 10.5,
+       "font": "g_d1_f1",
+       "dir": "ltr"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Almamlaka_Team_Governance.pdf",
+   "size": 0,
+   "pageCount": 2,
+   "pages": [
+    {
+     "page": 1,
+     "width": 612,
+     "height": 792,
+     "lines": [
+      {
+       "text": "Almamlaka TV Digital Expansion Initiative",
+       "cells": null,
+       "x": 107.6,
+       "y": 708.4,
+       "h": 20,
+       "font": "g_d2_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "Team & Governance Document",
+       "cells": null,
+       "x": 78,
+       "y": 672.4,
+       "h": 14,
+       "font": "g_d2_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "1. Project Team",
+       "cells": null,
+       "x": 78,
+       "y": 618.4,
+       "h": 18,
+       "font": "g_d2_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "Name | Role | Department",
+       "cells": [
+        "Name",
+        "Role",
+        "Department"
+       ],
+       "x": 110.4,
+       "y": 591.4,
+       "h": 9,
+       "font": "g_d2_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "Sara Al-Rashid | Project Lead | Digital Strategy",
+       "cells": [
+        "Sara Al-Rashid",
+        "Project Lead",
+        "Digital Strategy"
+       ],
+       "x": 110.4,
+       "y": 567.4,
+       "h": 9,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Omar Fayez | Lead Engineer | Engineering",
+       "cells": [
+        "Omar Fayez",
+        "Lead Engineer",
+        "Engineering"
+       ],
+       "x": 110.4,
+       "y": 543.4,
+       "h": 9,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Lina Haddad | UX Design Lead | Design",
+       "cells": [
+        "Lina Haddad",
+        "UX Design Lead",
+        "Design"
+       ],
+       "x": 110.4,
+       "y": 519.4,
+       "h": 9,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Khalid Nasser | Marketing Lead | Marketing",
+       "cells": [
+        "Khalid Nasser",
+        "Marketing Lead",
+        "Marketing"
+       ],
+       "x": 110.4,
+       "y": 495.4,
+       "h": 9,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Rana Sabbagh | Compliance Officer | Legal & Compliance",
+       "cells": [
+        "Rana Sabbagh",
+        "Compliance Officer",
+        "Legal & Compliance"
+       ],
+       "x": 110.4,
+       "y": 471.4,
+       "h": 9,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "2. Governance Structure",
+       "cells": null,
+       "x": 78,
+       "y": 414.4,
+       "h": 18,
+       "font": "g_d2_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "The steering committee meets bi-weekly to review project status, budget utilization, and risk items.",
+       "cells": null,
+       "x": 78,
+       "y": 391.9,
+       "h": 10.5,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "Decisions requiring budget changes above $50,000 must be approved by the Finance Committee",
+       "cells": null,
+       "x": 78,
+       "y": 376.9,
+       "h": 10.5,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "before implementation.",
+       "cells": null,
+       "x": 78,
+       "y": 361.9,
+       "h": 10.5,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "3. Revised Launch Date",
+       "cells": null,
+       "x": 78,
+       "y": 325.4,
+       "h": 18,
+       "font": "g_d2_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "Following the steering committee meeting on January 20, 2027, the public launch date was moved",
+       "cells": null,
+       "x": 78,
+       "y": 302.9,
+       "h": 10.5,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "to April 1, 2027 to allow additional time for smart TV integration testing, which was identified as a",
+       "cells": null,
+       "x": 78,
+       "y": 287.9,
+       "h": 10.5,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "high-risk item in the project timeline.",
+       "cells": null,
+       "x": 78,
+       "y": 272.9,
+       "h": 10.5,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      }
+     ]
+    },
+    {
+     "page": 2,
+     "width": 612,
+     "height": 792,
+     "lines": [
+      {
+       "text": "4. Data Privacy Policy",
+       "cells": null,
+       "x": 78,
+       "y": 710.4,
+       "h": 18,
+       "font": "g_d2_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "All user data collected through the mobile application and streaming portal will be handled in",
+       "cells": null,
+       "x": 78,
+       "y": 687.9,
+       "h": 10.5,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "accordance with applicable data protection regulations. User data will not be shared with third",
+       "cells": null,
+       "x": 78,
+       "y": 672.9,
+       "h": 10.5,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "parties without explicit consent, except where required by law.",
+       "cells": null,
+       "x": 78,
+       "y": 657.9,
+       "h": 10.5,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "5. Content Moderation Policy",
+       "cells": null,
+       "x": 78,
+       "y": 621.4,
+       "h": 18,
+       "font": "g_d2_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "User-generated comments and interactions on the platform are subject to Almamlaka TV's content",
+       "cells": null,
+       "x": 78,
+       "y": 598.9,
+       "h": 10.5,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "moderation guidelines. Content that violates community standards will be removed, and repeat",
+       "cells": null,
+       "x": 78,
+       "y": 583.9,
+       "h": 10.5,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "violations may result in account suspension.",
+       "cells": null,
+       "x": 78,
+       "y": 568.9,
+       "h": 10.5,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "6. Escalation Contacts",
+       "cells": null,
+       "x": 78,
+       "y": 532.4,
+       "h": 18,
+       "font": "g_d2_f2",
+       "dir": "ltr"
+      },
+      {
+       "text": "For technical escalations, contact the Engineering Lead. For budget or scope changes, escalate to",
+       "cells": null,
+       "x": 78,
+       "y": 509.9,
+       "h": 10.5,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      },
+      {
+       "text": "the Project Lead, who will bring the item to the steering committee for review.",
+       "cells": null,
+       "x": 78,
+       "y": 494.9,
+       "h": 10.5,
+       "font": "g_d2_f1",
+       "dir": "ltr"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -11,6 +11,28 @@ picking one, follows up across turns, and refuses prompt-injection and out-of-sc
 
 ---
 
+## Screenshots
+
+Taken on the live site with the three task PDFs.
+
+**Conflict flagged instead of picking one value.** The budget question returns both figures, each with its document, section and page.
+
+![Budget conflict between documents](docs/screenshots/1-conflict-budget.png)
+
+**Grounded Arabic answer with numbered citations.** Each source shows the verbatim English quote and a link that opens the PDF at that page. The panel on the left shows the LangGraph path the question took.
+
+![Arabic answer with citations](docs/screenshots/2-answer-with-citations.png)
+
+**Out-of-scope question and prompt injection.** Both get fixed replies in the user's language, without calling the answer model.
+
+![Out-of-scope and prompt-injection replies](docs/screenshots/3-out-of-scope-and-injection.png)
+
+**Live processing pipeline.** After pressing موافق, the nine stages run on the uploaded files and each one shows its real output.
+
+![Processing pipeline](docs/screenshots/4-processing-pipeline.png)
+
+---
+
 ## How each requirement is met
 
 | Requirement | Implementation |
